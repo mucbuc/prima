@@ -1,14 +1,15 @@
 {
 	'includes':[
-		'lib/context/def/base.gypi',
+		'lib/dynamo/def.gypi',
 		'plank/def/mac-targets.gypi',
 		'plank/def/cpp11.gypi'
-	],#inclues
+	],#includes
 	'target_defaults': {
 		'target_name': 'test', 
 		'type': 'executable',
 		'sources': [
-			'src/main.cpp'
+			'src/main.cpp',
+			'src/batch.h'
 		], #sources
 		'include_dirs': [
 			'plank/src/',
