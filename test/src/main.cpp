@@ -1,12 +1,12 @@
 #include <iostream>
 #include <plank/src/test.h>
-#include "subject.h"
+#include <lib/prime/src/point.h>
 
 int main(int argc, const char * argv[])
 {
     using namespace om636;
 
-	run_observer_test<void>();
+	point<void> p;
 	
 	return 0;
 }
