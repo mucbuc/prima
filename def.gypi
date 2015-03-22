@@ -1,8 +1,8 @@
 {
 	'target_defaults': {
 		'sources': [
-			'src/point.h',
-			'src/point.hxx',
+			'src/primitive.h',
+			'src/primitive.hxx',
 		]
 	}
 }
