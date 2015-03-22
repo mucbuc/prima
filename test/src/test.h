@@ -1,14 +1,14 @@
-#include <iostream>
 #include <fstream>
-#include <vector>
 #include <functional>
+#include <iostream>
+#include <vector>
 
 #include <lib/context/src/interface.h>
 #include <lib/context/test/src/base.h>
-#include <lib/sense/src/subject.h>
 #include <lib/numbro/src/additive.h>
-#include <lib/numbro/src/matrix.h>
 #include <lib/numbro/src/multiplicative.h>
+#include <lib/numbro/src/vec.h>
+#include <lib/sense/src/subject.h>
 
 namespace
 {
@@ -23,7 +23,7 @@ namespace
 		using namespace std;
 		using namespace om636;
 
-    	typedef context< tuple< unsigned, unsigned, unsigned >, matrix > context_type;
+    	typedef context< tuple< unsigned, unsigned, unsigned >, vec > context_type;
 		
 		context_type a( make_tuple( 1, 2, 4 ) );
 		get<2>( a.value_ref() ) = 0;
