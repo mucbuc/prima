@@ -8,6 +8,7 @@
 			'src/multiplicative.hxx',
 			'src/observer.h',
 			'src/observer.hxx',
+			'src/range.h',
 			'src/vec.h',
 			'src/vec.hxx',
 		]

@@ -7,6 +7,7 @@
 #include <lib/context/test/src/base.h>
 #include <lib/numbro/src/additive.h>
 #include <lib/numbro/src/multiplicative.h>
+#include <lib/numbro/src/range.h>
 #include <lib/numbro/src/vec.h>
 #include <lib/sense/src/subject.h>
 
@@ -26,7 +27,7 @@ namespace
     	typedef context< tuple< unsigned, unsigned, unsigned >, vec > context_type;
 		
 		context_type a( make_tuple( 1, 2, 4 ) );
-		get<2>( a.value_ref() ) = 0;
+		a[index<2>()] = 0;
 		cout << a << endl;
 
 
