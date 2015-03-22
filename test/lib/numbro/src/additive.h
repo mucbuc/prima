@@ -9,6 +9,8 @@ www.github.com/mucbuc
 
 #include <tuple>
 
+#include <lib/context/src/interface.h>
+#include <lib/context/src/default_subject.h>
 #include <lib/numbro/src/observer.h>
 
 namespace om636

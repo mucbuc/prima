@@ -9,18 +9,18 @@
 		- swap is implemented by template parameter C 
 */
 
-#include <lib/drop/mathfunctors.h>
+#ifndef VEC_H_UYK009u098
+	#define VEC_H_UYK009u098
+
 #include <tuple>
 
-#ifndef MATRIX_H_UYK009u098
-	#define MATRIX_H_UYK009u098
-
 #include <lib/context/src/default_subject.h>
+#include <lib/drop/mathfunctors.h>
 
 namespace om636
 {
     template<class C>
-	struct matrix 
+	struct vec 
 	: default_subject::policy<C>
 	{
 		// types
@@ -61,6 +61,6 @@ namespace om636
 	};
 }   // om636
 
-#include "matrix.hxx"
+#include "vec.hxx"
 
-#endif // MATRIX_H_UYK009u098
+#endif // VEC_H_UYK009u098
