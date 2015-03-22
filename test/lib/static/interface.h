@@ -2,6 +2,7 @@
 #define INTERFACE_H__INCLUDE_GUARD__LJDFD88989898989
 
 #include <algorithm>
+#include "typeutills.h"
 
 namespace om636
 {   
