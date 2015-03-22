@@ -6,9 +6,8 @@
 
 namespace om636
 {
-	
     template<class ... T>
-    using point = om636::vec< std::tuple< T ... > >;
+    using point = om636::context< std::tuple< T ... >, om636::vec >;
 }
 
 #include "point.hxx"
