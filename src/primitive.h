@@ -30,10 +30,10 @@ namespace om636
 	}
 
 	template<typename ... T>
-	typename std::tuple_element<0, std::tuple< T ... > >::type width( const primitive< T ... > & );
+	typename std::tuple_element<0, typename primitive< T ... >::value_type >::type width( const primitive< T ... > & );
 
 	template<typename ... T>
-	typename std::tuple_element<1, std::tuple< T ... > >::type height( const primitive< T ... > & );
+	typename std::tuple_element<1, typename primitive< T ... >::value_type >::type height( const primitive< T ... > & );
 
 	template<class ... T>
 	bool contains( const primitive< T ... > &, const primitive< T ... > &);
@@ -43,6 +43,6 @@ namespace om636
 
 }	// om636
 		
-//#include "primitive.hxx"
+#include "primitive.hxx"
 
 #endif // PRIMITIVE_H_HLMMPPD6837764
