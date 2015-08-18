@@ -2,7 +2,7 @@
 #include <tuple>
 #include <plank/src/test.h>
 
-#include <lib/prime/src/primitive.h>
+#include <lib/prima/src/primitive.h>
 
 void run_primitive_tests()
 {
