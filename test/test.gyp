@@ -1,9 +1,6 @@
 {
 	'includes':[
-		'lib/context/def.gypi',
-		'lib/numbro/def.gypi',
-		'lib/static/def.gypi',
-		'lib/traverse/traverse.gypi',
+		'lib/prima/def.gypi',
 		'plank/def/plank.gypi',
 	],#includes
 	'target_defaults': {
