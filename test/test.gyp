@@ -3,8 +3,7 @@
 		'lib/context/def.gypi',
 		'lib/numbro/def.gypi',
 		'lib/static/def.gypi',
-		'lib/traverse/def/base.gypi',
-		'plank/def/mac-targets.gypi',
+		'lib/traverse/traverse.gypi',
 		'plank/def/plank.gypi',
 	],#includes
 	'target_defaults': {
