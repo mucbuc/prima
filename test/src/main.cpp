@@ -1,6 +1,6 @@
 #include <iostream>
 #include <tuple>
-#include <plank/src/test.h>
+#include "test.h"
 
 #include <lib/prima/src/primitive.h>
 
