@@ -1,0 +1,8 @@
+{
+	"includes":[
+		"lib/prima/def.json"
+	],
+	"sources": [
+		"src/main.cpp"
+	]
+}
