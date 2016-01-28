@@ -1,6 +1,6 @@
 #include <iostream>
 #include <tuple>
-#include "test.h"
+#include <tmp/src/test.h>
 
 #include <lib/prima/src/primitive.h>
 
