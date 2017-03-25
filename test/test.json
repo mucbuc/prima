@@ -1,10 +1,6 @@
 {
 	"includes":[
-		"lib/context/def.json",
-		"lib/numbro/def.json",
-		"lib/prima/def.json",
-		"lib/static/def.json",
-		"lib/traverse/traverse.json"
+		"lib/prima/def.json"
 	],
 	"sources": [
 		"src/main.cpp"

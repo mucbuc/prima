@@ -1,4 +1,10 @@
 {	
+	"includes": [
+		"../context/def.json",
+		"../numbro/def.json",
+		"../static/def.json",
+		"../traverse/traverse.json"
+	],
 	"sources": [
 		"src/primitive.h",
 		"src/primitive.hxx"
