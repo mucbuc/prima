@@ -10,6 +10,8 @@
 #ifndef PRIMITIVE_H_HLMMPPD6837764
 	#define PRIMITIVE_H_HLMMPPD6837764
 
+#include <tuple>
+
 #include <lib/context/src/interface.h>
 #include <lib/numbro/src/vec.h>
 #include <lib/numbro/src/range.h>
